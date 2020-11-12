@@ -1,21 +1,20 @@
-[
-  {
-  "testDataIndex" : 1,
-  "itemName" : "Paint Scraper 50mm",
-  "searchTerm" : "paint",
-  "itemPrice" :  13.33,
-  "itemNumber" : "12056947",
-  "minimumQuantity" : 1,
-  "selectedQuantity" : 1
-  },
-
-  {
-  "testDataIndex" : 2,
-  "itemName" : "Paint remover spray for marking paint 300ml",
-  "searchTerm" : "paint",
-  "itemPrice" : 16.29,
-  "itemNumber" : "12970941",
-  "minimumQuantity": 12,
-  "selectedQuantity" : 12
-  }
-]
+{
+  "Country" : "Germany",
+  "Language" : "English",
+  "Password" : "Das@123",
+  "Pin" : "1901",
+  "Salutation" : "Mr",
+  "First_Name" : "Dasun",
+  "Last_Name" : "Test",
+  "Birth_Date" : "12",
+  "Birth_Month" : "June",
+  "Birth_Year" : "1998",
+  "Birth_Place" : "Munich",
+  "Address_Street" : "20 John's Street",
+  "Address_Additional_Street" : "Nothing",
+  "Address_Zip_Code" : "80992",
+  "Address_City" : "Munich",
+  "Phone_Country" : "+49             Germany",
+  "Promotion_Code" : "",
+  "Accept_Terms" : "True"
+}

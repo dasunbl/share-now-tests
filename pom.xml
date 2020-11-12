@@ -14,7 +14,7 @@
 
     <properties>
         <aspectj.version>1.9.6</aspectj.version>
-        <tags>regression, sanity</tags>
+        <tags>ui, api</tags>
     </properties>
 
     <dependencies>

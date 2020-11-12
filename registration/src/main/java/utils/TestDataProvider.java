@@ -1,6 +1,8 @@
 package utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import data.FieldNameKeys;
+import org.apache.commons.lang3.RandomStringUtils;
 import types.TestDataFile;
 import types.TestDataType;
 
@@ -30,6 +32,10 @@ public class TestDataProvider {
             throw new RuntimeException("Error occurred when reading test of data type: " + testDataType);
         }
 
+        if (testDataType.equals(TestDataType.USER) && file.equals(TestDataFile.VALID)) {
+            setDynamicEmailAndPhoneNumber(data);
+        }
+
         return  data ;
     }
 
@@ -47,5 +53,16 @@ public class TestDataProvider {
         }
 
         return value;
+    }
+
+    private  void  setDynamicEmailAndPhoneNumber(Map<String, String> testData){
+       String email = "dtestcoding+{random}@outlook.com";
+       String randomEmailString =   RandomStringUtils.random(6,true,false);
+       testData.put(FieldNameKeys.EMAIL,  email.replace("{random}", randomEmailString));
+
+       String mobilePhone = "303994{random}";
+       String randomMobileString =   RandomStringUtils.random(5,false,true);
+        testData.put(FieldNameKeys.PHONE,  mobilePhone.replace("{random}", randomMobileString));
+
     }
 }

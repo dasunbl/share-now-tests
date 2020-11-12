@@ -1,21 +1,125 @@
 [
   {
-  "testDataIndex" : 1,
-  "itemName" : "Paint Scraper 50mm",
-  "searchTerm" : "paint",
-  "itemPrice" :  13.33,
-  "itemNumber" : "12056947",
-  "minimumQuantity" : 1,
-  "selectedQuantity" : 1
+  "fieldName" : "Country",
+  "identifier" : "addressCountryIsoCode",
+  "fieldType" : "SELECT"
   },
 
   {
-  "testDataIndex" : 2,
-  "itemName" : "Paint remover spray for marking paint 300ml",
-  "searchTerm" : "paint",
-  "itemPrice" : 16.29,
-  "itemNumber" : "12970941",
-  "minimumQuantity": 12,
-  "selectedQuantity" : 12
+    "fieldName" : "Language",
+    "identifier" : "language",
+    "fieldType" : "SELECT"
+  },
+
+  {
+    "fieldName" : "Email",
+    "identifier" : "email",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Password",
+    "identifier" : "password",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Pin",
+    "identifier" : "pin",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Salutation",
+    "identifier" : "salutation",
+    "fieldType" : "SELECT"
+  },
+
+  {
+    "fieldName" : "First_Name",
+    "identifier" : "firstName",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Last_Name",
+    "identifier" : "lastName",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Birth_Date",
+    "identifier" : "birthDate",
+    "fieldType" : "SELECT",
+    "xpathIdentifier" : "//legend[text()='Date of birth *']/../div/camelot-select[1]/div/div/select"
+  },
+
+  {
+    "fieldName" : "Birth_Month",
+    "identifier" : "birthDate",
+    "fieldType" : "SELECT",
+    "xpathIdentifier" : "//legend[text()='Date of birth *']/../div/camelot-select[2]/div/div/select"
+  },
+
+  {
+    "fieldName" : "Birth_Year",
+    "identifier" : "birthDate",
+    "fieldType" : "SELECT",
+    "xpathIdentifier" : "//legend[text()='Date of birth *']/../div/camelot-select[3]/div/div/select"
+  },
+
+  {
+    "fieldName" : "Birth_Place",
+    "identifier" : "birthPlace",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Address_Street",
+    "identifier" : "addressStreet",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Address_Additional_Street",
+    "identifier" : "addressAdditionalStreet",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Address_Zip_Code",
+    "identifier" : "addressZipCode",
+    "fieldType" : "TEXTBOX"
+  },
+  {
+    "fieldName" : "Address_City",
+    "identifier" : "addressCity",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Phone_Country",
+    "identifier" : "",
+    "fieldType" : "SELECT",
+    "xpathIdentifier" : "//div[@class='camelot-phone__wrapper']/camelot-select/div/div/select"
+  },
+
+  {
+    "fieldName" : "Mobile_Phone",
+    "identifier" : "mobilePhone",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Promotion_Code",
+    "identifier" : "promotionCode",
+    "fieldType" : "TEXTBOX"
+  },
+
+  {
+    "fieldName" : "Accept_Terms",
+    "identifier" : "",
+    "fieldType" : "CHECKBOX",
+    "xpathIdentifier" : "//p[contains(text(),'I accept the')]/../../.."
   }
 ]

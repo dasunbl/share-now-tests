@@ -9,9 +9,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class PageConfigProviders {
+public class PageConfigProvider {
 
     private String dataFilePath  = System.getProperty("user.dir") + "/src/main/resources/pageconfigs/{page_type}-page.json";
+
 
 
     public List<Field> getPageConfigurationData(PageType pageType) {

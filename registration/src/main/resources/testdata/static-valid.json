@@ -1,3 +1,5 @@
 {
-  "JOIN_BUTTON_TEXT" : "Join for free"
+  "JOIN_BUTTON_TEXT" : "Join for free",
+  "REQUIRED_FIELD_TEXT" : "This field is required.",
+  "EMAIL_VALIDATION" : "Please enter your email address in this format: yourname@example.com"
 }
