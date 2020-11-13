@@ -19,7 +19,7 @@ public class TestDataProvider {
      * Get Test Data
      * @param testDataType test data type
      * @param file file type
-     * @return Test as Map
+     * @return Test data as Map
      */
     public Map<String, String> getTestData(TestDataType testDataType, TestDataFile file) {
         String path =  dataFilePath.replace("{data_type}", testDataType.name().toLowerCase())

@@ -21,26 +21,4 @@ public class SeleniumUtil {
         wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
-    /**
-     * Wait given number of seconds
-     * @param numberOfSecond number of seconds to wait
-     */
-    public static void waitForGivenNumberOfSecond(int numberOfSecond){
-        try {
-            Thread.sleep(numberOfSecond * 1000);
-        } catch (InterruptedException e) {
-            throw  new RuntimeException("Error in waiting");
-        }
-    }
-
-    /**
-     * Scroll to the top of the page
-     * @param driver web driver
-     */
-    public static void scrollToTopOfThePage(WebDriver driver)
-    {
-        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0);");
-    }
-
-
 }
