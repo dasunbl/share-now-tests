@@ -1,0 +1,13 @@
+[
+  {
+    "dataKey" : "VALID_VEHICLE",
+    "vehicleId" : "WDB111111ZZZ22222",
+    "value" : "false"
+  },
+
+  {
+    "dataKey" : "INVALID_VEHICLE",
+    "vehicleId" : "XYZ111111ZZZ22222",
+    "value" : "false"
+  }
+]

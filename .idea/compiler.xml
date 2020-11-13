@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="carspecs" />
         <module name="registration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="carspecs" target="11" />
       <module name="registration" target="11" />
       <module name="share-now-test" target="11" />
     </bytecodeTargetLevel>
